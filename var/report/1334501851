@@ -1,0 +1,13 @@
+a:5:{i:0;s:90:"Invalid method Mage_Core_Block_Text_List::removeOutputBlock(Array
+(
+    [0] => content
+)
+)";i:1;s:988:"#0 D:\project\magento19\app\code\local\Ducna\Demo1\controllers\InfoController.php(64): Varien_Object->__call('removeOutputBlo...', Array)
+#1 D:\project\magento19\app\code\local\Ducna\Demo1\controllers\InfoController.php(64): Mage_Core_Block_Text_List->removeOutputBlock('content')
+#2 D:\project\magento19\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Ducna_Demo1_InfoController->indexAction()
+#3 D:\project\magento19\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(250): Mage_Core_Controller_Varien_Action->dispatch('index')
+#4 D:\project\magento19\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 D:\project\magento19\app\code\core\Mage\Core\Model\App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#6 D:\project\magento19\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#7 D:\project\magento19\index.php(86): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:27:"/index.php/demo1/info/index";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:7:"default";}

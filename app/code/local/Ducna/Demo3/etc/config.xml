@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ducna_Demo3>
+            <version>0.1.0</version>
+        </Ducna_Demo3>
+    </modules>
+    <frontend>
+        <routers>
+            <module_demo3>
+                <use>standard</use>
+                <args>
+                    <module>Ducna_Demo3</module>
+                    <frontName>demo3</frontName>
+                </args>
+            </module_demo3>
+        </routers>
+        <layout>
+            <updates>
+                <module_demo3>
+                    <file>demo3.xml</file>
+                </module_demo3>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <!--quan ly cac block-->
+        <blocks>
+            <module_demo3>
+                <class>Ducna_Demo3_Block</class>
+            </module_demo3>
+        </blocks>
+        <!--quan ly cac helper-->
+        <helpers>
+            <module_demo3>
+                <class>Ducna_Demo3_Helper</class>
+            </module_demo3>
+        </helpers>
+        <!--quan ly ve data CURD-->
+        <resources>
+            <module_demo3_setup>
+                <setup>
+                    <module>Ducna_Demo3</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </module_demo3_setup>
+            <module_demo3_write>
+                <connection><use>core_write</use></connection>
+            </module_demo3_write>
+            <module_demo3_read>
+                <connection><use>core_read</use></connection>
+            </module_demo3_read>
+        </resources>
+        <!--quan ly models, noi se tro ve bang database-->
+        <models>
+            <module_demo3>
+                <class>Ducna_Demo3_Model</class>
+                <resourceModel>module_demo3_mysql4</resourceModel>
+            </module_demo3>
+            <module_demo3_mysql4>
+                <class>Ducna_Demo3_Model_Mysql4</class>
+                <entities>
+                    <module_demo3>
+                        <table>demo3</table>
+                    </module_demo3>
+                </entities>
+            </module_demo3_mysql4>
+        </models>
+    </global>
+</config>

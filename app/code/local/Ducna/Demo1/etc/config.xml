@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ducna_Demo1>
+            <version>1.0</version>
+        </Ducna_Demo1>
+    </modules>
+    <frontend>
+        <routers>
+            <ducna_demo1>
+                <use>standard</use>
+                <args>
+                    <module>Ducna_Demo1</module>
+                    <frontName>demo1</frontName>
+                </args>
+            </ducna_demo1>
+        </routers>
+        <layout>
+            <updates>
+                <ducna_demo1_info_index>
+                    <file>demo1.xml</file>
+                </ducna_demo1_info_index>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <demo1>
+                <class>Ducna_Demo1_Block</class>
+            </demo1>
+        </blocks>
+    </global>
+</config>

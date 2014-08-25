@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ducna_HelloWorld>
+            <active>false</active>
+            <codePool>local</codePool>
+        </Ducna_HelloWorld>
+    </modules>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <quan_demo_message_index>
+        <reference name="content">
+            <block type="Demo/Quan" name="demo" template="demo/demo.phtml" />
+        </reference>
+    </quan_demo_message_index>
+
+    <quan_demo_message_add>
+        <reference name="content">
+            <block type="Demo/Quan" name="demo" template="demo/demo_add.phtml" />
+        </reference>
+    </quan_demo_message_add>
+
+    <quan_demo_message_edit>
+        <reference name="content">
+            <block type="Demo/Quan" name="demo" template="demo/demo_edit.phtml" />
+        </reference>
+    </quan_demo_message_edit>
+</layout>

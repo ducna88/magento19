@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout vertion="0.1.0">
+    <demo3_index_index>
+        <reference name="content">
+            <block type="demo3/demo3" name="demo3Block"></block>
+        </reference>
+    </demo3_index_index>
+</layout>

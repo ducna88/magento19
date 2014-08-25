@@ -1,0 +1,74 @@
+<?php
+$data = Mage::registry("test");
+$demo_id = $data->demoId;
+$first_name = $data->firstname;
+$lastname = $data->lastname;
+$email = $data->email;
+$username = $data->username;
+$password = $data->password;
+?>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#fn").click(function(){
+            $("#fn").val("");
+        });
+        $("#fn").focus(function(){
+            $("#fn").val("");
+        });
+
+        $("#ln").click(function(){
+            $("#ln").val("");
+        });
+        $("#ln").focus(function(){
+            $("#ln").val("");
+        });
+
+        $("#em").click(function(){
+            $("#em").val("");
+        });
+        $("#em").focus(function(){
+            $("#em").val("");
+        });
+
+        $('#ok').click(function(){
+            var first_name = $("#fn").val();
+            var last_name = $("#ln").val();
+            var email = $("#em").val();
+//            var user_name = $("#un").val();
+//            var password = $("#pw").val();
+            var demo_id = "<?php echo $demo_id;?>";
+
+            $.get("<?php echo Mage::getBaseUrl().'Demo/Message/';?>editDemo?demo_id="+demo_id+"&first_name="+first_name+"&last_name="+last_name+"&email="+email,
+                function(result,status,jXhr){
+                    parent.document.location.href='index';
+                });
+        });
+    });
+</script>
+
+<div style="width: 100%;border-left: 1px red solid">
+    <center><h2> Sửa User</h2>
+        <table>
+            <tr>
+                <td style="padding-right: 20px;padding-top: 20px">FirstName</td><td style="padding-top: 20px"><input type="text" style="width:170px" id="fn" value="<?php echo $first_name;?>" /></td>
+            </tr><br/>
+            <tr style="margin: 10px">
+                <td style="padding-right: 20px;padding-top: 20px">LastName</td><td style="padding-top: 20px"><input type="text" style="width:170px" id="ln" value="<?php echo $lastname;?>"/></td>
+            </tr>
+            <tr style="margin: 10px">
+                <td style="padding-right: 20px;padding-top: 20px">Email</td><td style="padding-top: 20px"><input type="text" style="width:170px" id="em" value="<?php echo $email;?>" /></td>
+            </tr>
+            <tr>
+                <td style="padding-right: 20px;padding-top: 20px">UserName</td><td style="padding-top: 20px"><input type="text" style="width:170px;background: #ffbf1d" id="un" value="<?php echo $username;?>" readonly/></td>
+            </tr>
+            <tr>
+                <td style="padding-right: 20px;padding-top: 20px">Password</td><td style="padding-top: 20px"><input type="password" style="width:170px;background: #ffbf1d" id="pw" value="<?php echo $password;?>" readonly/></td>
+            </tr>
+            <tr>
+                <td style="padding-right: 20px;padding-top: 20px"></td><td style="padding-top: 20px"><input type="submit" style="width:100px" id="ok"/></td>
+            </tr>
+        </table>
+    </center>
+</div>

@@ -1,0 +1,52 @@
+<?php
+    $data = Mage::registry("test");
+//    var_dump($data);
+?>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+<!--<script type="text/javascript">-->
+<!--    $(document).ready(function(){-->
+<!--        $('input').click(function(){-->
+<!--            id = this.attr("type");-->
+<!--           alert(id);-->
+<!--        });-->
+<!--    });-->
+<!--</script>-->
+<center>
+<h2>Danh sách User demo</h2>
+<div style="width: 100%;">
+    <table style="text-align: center;">
+        <tr>
+            <td style="border: 1px green solid;padding: 5px;width: 30px;">DemoId</td>
+            <td style="border: 1px green solid;padding: 5px;width: 30px;">firstname</td>
+            <td style="border: 1px green solid;padding: 5px;width: 30px;">lastname</td>
+            <td style="border: 1px green solid;padding: 1px;">Email</td>
+            <td style="border: 1px green solid;padding: 5px;width: 30px;">username</td>
+            <td style="border: 1px green solid;padding: 1px;">created</td>
+            <td style="border: 1px green solid;padding: 1px">updated</td>
+        </tr>
+        <?php
+            foreach($data as $user){
+                $demoId = $user->demoId;
+                $firstname = $user->firstname;
+                $lastname = $user->lastname;
+                $email = $user->email;
+                $username = $user->username;
+                $created_at = $user->created;
+                $updated_at = $user->updated;
+                ?>
+                <tr>
+                    <td style='border: 1px green solid;padding: 5px;width: 30px;'><?php echo $demoId;?></td>
+                    <td style='border: 1px green solid;padding: 5px;width: 30px;'><?php echo $firstname;?></td>
+                    <td style='border: 1px green solid;padding: 5px;width: 30px;'><?php echo $lastname;?></td>
+                    <td style='border: 1px green solid;padding: 1px'><?php  echo $email;?></td>
+                    <td style='border: 1px green solid;padding: 5px;width: 30px;'><a href='<?php echo Mage::getBaseUrl(); ?>Demo/Message/edit?id=<?php echo $demoId;?>'><?php echo $username;?></a>  </td>
+                    <td style='border: 1px green solid;padding: 1px;'><?php  echo $created_at; ?></td>
+                    <td style='border: 1px green solid;padding: 1px;'><?php  echo $updated_at; ?></td>
+                </tr>
+            <?php
+            }
+        ?>
+        <tr><td style='padding: 1px; '><a href="<?php echo Mage::getBaseUrl(); ?>Demo/Message/add">Add</a></td></tr>
+    </table></center>
+</div>
+

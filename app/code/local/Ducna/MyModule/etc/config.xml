@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ducna_MyModule>
+            <version>0.1.0</version>
+        </Ducna_MyModule>
+    </modules>
+    <frontend>
+        <routers>
+            <xinchao> <!-- unique_name = ten router - dung trong xu ly ben trong -->
+                <use>standard</use>
+                <args>
+                    <!-- duong dan module -->
+                    <module>Ducna_MyModule</module>
+                    <!-- duong dan fontName dung tren link url vi du fontName/ Controller Name/ Action Name/ Parameter == helloworld/ index/ index -->
+                    <frontName>helloworld</frontName>
+                </args>
+            </xinchao>
+        </routers>
+        <layout>
+            <updates>
+                <xinchao>
+                    <file>mymodule.xml</file>
+                </xinchao>
+            </updates>
+        </layout>
+    </frontend>
+</config>

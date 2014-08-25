@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ducna_Hello>
+            <version>0.1.0</version>
+        </Ducna_Hello>
+    </modules>
+    <frontend>
+        <routers>
+            <hello>
+                <use>standard</use>
+                <args>
+                    <module>Ducna_Hello</module>
+                    <frontName>hello</frontName>
+                </args>
+            </hello>
+        </routers>
+    </frontend>
+    <global>
+        <rewrite>
+            <Ducna_Hello>
+                <from><![CDATA[#^/hello/index/view/id#]]></from>
+                <to>/catalog/product/view/id</to>
+                <complete>true</complete>
+            </Ducna_Hello>
+        </rewrite>
+    </global>
+
+</config>

@@ -1,0 +1,48 @@
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#ok').click(function(){
+            $("#dialog").css("display","block");
+            
+            var first_name = $("#fn").val();
+            var last_name = $("#ln").val();
+            var email = $("#em").val();
+            var user_name = $("#un").val();
+            var password = $("#pw").val();
+
+            $.get("<?php echo Mage::getBaseUrl().'Demo/Message/';?>addDemo?first_name="+first_name+"&last_name="+last_name+"&email="+email+"&user_name="+user_name+"&password="+password,
+                function(result,status,jXhr){
+                    $("#dialog").css("display","none");
+                parent.document.location.href='index';
+            });
+        });
+    });
+</script>
+
+<div style="width: 100%;border-left: 1px red solid;">
+    <div id="dialog" style="width: 100px;height: 100px;margin-left: 170px;display: none">
+        <img src="<?php echo Mage::getBaseUrl().'skin/frontend/rwd/default/images/loader.gif'; ?>" />
+    </div>
+    <center><h2> Thêm User</h2>
+    <table>
+        <tr>
+            <td style="padding-right: 20px;padding-top: 20px">FirstName</td><td style="padding-top: 20px"><input type="text" style="width:170px" id="fn"/></td>
+        </tr><br/>
+        <tr style="margin: 10px">
+            <td style="padding-right: 20px;padding-top: 20px">LastName</td><td style="padding-top: 20px"><input type="text" style="width:170px" id="ln"/></td>
+        </tr>
+        <tr style="margin: 10px">
+            <td style="padding-right: 20px;padding-top: 20px">Email</td><td style="padding-top: 20px"><input type="text" style="width:170px" id="em"/></td>
+        </tr>
+        <tr>
+            <td style="padding-right: 20px;padding-top: 20px">UserName</td><td style="padding-top: 20px"><input type="text" style="width:170px" id="un"/></td>
+        </tr>
+        <tr>
+            <td style="padding-right: 20px;padding-top: 20px">Password</td><td style="padding-top: 20px"><input type="password" style="width:170px" id="pw"/></td>
+        </tr>
+        <tr>
+            <td style="padding-right: 20px;padding-top: 20px"></td><td style="padding-top: 20px"><input type="submit" style="width:100px" id="ok"/></td>
+        </tr>
+    </table>
+    </center>
+</div>

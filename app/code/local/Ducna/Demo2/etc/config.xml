@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ducna_Demo2>
+            <version>1.0</version>
+        </Ducna_Demo2>
+    </modules>
+    <frontend>
+        <routers>
+            <ducna_demo2>
+                <use>standard</use>
+                <args>
+                    <module>Ducna_Demo2</module>
+                    <frontName>demo2</frontName>
+                </args>
+            </ducna_demo2>
+        </routers>
+        <layout>
+            <updates>
+                <ducna_demo2>
+                    <file>demo2.xml</file>
+                </ducna_demo2>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <demo2>
+                <class>Ducna_Demo2_Block</class>
+            </demo2>
+        </blocks>
+
+        <rewrite>
+            <Ducna_Demo2>
+                <from><![CDATA[#^/demo2/index/view/id#]]></from>
+                <to>/catalog/product/view/id</to>
+                <complete>true</complete>
+            </Ducna_Demo2>
+        </rewrite>
+    </global>
+</config>

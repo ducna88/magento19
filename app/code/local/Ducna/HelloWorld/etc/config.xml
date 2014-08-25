@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ducna_HelloWorld>
+            <version>0.1.0</version>
+        </Ducna_HelloWorld>
+    </modules>
+</config>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <ducna_demo1_info_index>
+            <reference name="content">
+                <block type="demo1/demo1" name="ducna_demo1" template="demo1/demo1.phtml">
+                    <action method="setMyName">
+                        <firstname>Duc</firstname>
+                    </action>
+                </block>
+
+
+                <!--<demo1>
+                    <block type="demo1/blockhello"
+                           name="block1"
+                           template="demo1/demo1.phtml"
+                           output="toHtml" >
+                        <block type="demo1/childBlock"
+                               name="block2"
+                               template="demo1/demo1_1.phtml"
+                               as="block_alias"/>
+                    </block>
+                </demo1>-->
+            </reference>
+    </ducna_demo1_info_index>
+</layout>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout>
+    <hello_world_layout_handle>
+        <block type="unique_group/hello_world"
+               name="unique_hello_world"
+               template="demo1/demo1.phtml"
+               output="toHtml">
+        </block>
+    </hello_world_layout_handle>
+</layout>

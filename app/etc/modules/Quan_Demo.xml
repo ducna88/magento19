@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Quan_Demo>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Quan_Demo>
+    </modules>
+</config>

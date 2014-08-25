@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<layout>
+    <ducna_hello_world_view>
+        <block type="ducna/hello_world"
+               name="ducna_hello_world"
+               template="hello/hello-world.phtml"
+               output="toHtml">
+            <action method="setTemplate">
+                <template>hello/hello-world.phtml</template>
+            </action>
+            <block type="ducna/child_block"
+                    name="ducna"
+                    template="hello/child.phtml"
+                    as="block_alias">
+                <action method="setMyName">
+                    <firstname>Duc</firstname>
+                    <lastname>Nguyen</lastname>
+                </action>
+
+            </block>
+       </block>
+    </ducna_hello_world_view>
+</layout>

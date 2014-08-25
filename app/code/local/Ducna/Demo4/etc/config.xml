@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ducna_Demo4>
+            <version>0.1.0</version>
+        </Ducna_Demo4>
+    </modules>
+    <frontend>
+        <routers>
+            <ducna_demo4>
+                <use>standard</use>
+                <args>
+                    <module>Ducna_Demo4</module>
+                    <frontName>demo4</frontName>
+                </args>
+            </ducna_demo4>
+        </routers>
+        <layout>
+            <updates>
+                <demo4>
+                    <file>demo4.xml</file>
+                </demo4>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <demo4>
+                <class>Ducna_Demo4_Block</class>
+            </demo4>
+        </blocks>
+        <models>
+            <demo4> <!-- chu y ten nay, se goi o model -->
+                <class>Ducna_Demo4_Model</class>
+                <resourceModel>demo4_mysql4</resourceModel>
+            </demo4>
+            <demo4_mysql4>
+                <class>Ducna_Demo4_Model_Mysql4</class>
+                <entities>
+                    <!--chu y entities o day se goi trong MyModel, chu y co phan biet hoa thuong-->
+                   <!-- $this->_init('demo4/MyModel');-->
+                    <MyModel>
+                        <table>demo4</table>
+                    </MyModel>
+                </entities>
+            </demo4_mysql4>
+        </models>
+        <resources>
+            <demo4_setup>
+                <setup>
+                    <module>Ducna_Demo4</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </demo4_setup>
+            <demo4_write>
+                <connection><use>core_write</use></connection>
+            </demo4_write>
+            <demo4_read>
+                <connection><use>core_read</use></connection>
+            </demo4_read>
+        </resources>
+    </global>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <ducna_demo4_user_index>
+        <reference name="content">
+            <block type="demo4/demo4" name="demo4" template="demo4/demo4_load.phtml" />
+        </reference>
+    </ducna_demo4_user_index>
+    <ducna_demo4_user_add>
+        <reference name="content">
+            <block type="demo4/demo4" name="demo4" template="demo4/demo4_add.phtml" />
+        </reference>
+    </ducna_demo4_user_add>
+    <ducna_demo4_user_edit>
+        <reference name="content">
+            <block type="demo4/demo4" name="demo4" template="demo4/demo4_edit.phtml" />
+        </reference>
+    </ducna_demo4_user_edit>
+</layout>

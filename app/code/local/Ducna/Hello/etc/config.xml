@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ducna_Hello>
+            <version>0.1.0</version>
+        </Ducna_Hello>
+    </modules>
+    <frontend>
+        <routers>
+            <hello> <!-- unique_name -->
+                <use>standard</use>
+                <args>
+                    <module>Ducna_Hello</module>
+                    <frontName>hello</frontName>
+                </args>
+            </hello>
+        </routers>
+        <layout>
+            <updates>
+                <hello>
+                    <file>hello.xml</file>
+                </hello>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+
+    </global>
+
+</config>
