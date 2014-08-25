@@ -14,6 +14,13 @@
                     <frontName>demo5</frontName>
                 </args>
             </demo5>
+            <catalog>
+                <args>
+                    <modules>
+                        <ducna_demo5 before="Mage_Catalog">Ducna_Demo5</ducna_demo5>
+                    </modules>
+                </args>
+            </catalog>
         </routers>
     </frontend>
     <global>
