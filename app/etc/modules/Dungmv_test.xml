@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dungmv_test>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Dungmv_test>
+    </modules>
+</config>

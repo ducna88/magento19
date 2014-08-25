@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dungmv_test>
+            <version>0.1.0</version>
+        </Dungmv_test>
+    </modules>
+    <global>
+        <models>
+            <dungmv_test>
+                <class>Dungmv_test_Model</class>
+            </dungmv_test>
+        </models>
+        <blocks>
+            <dungmv_test>
+                <class>Dungmv_test_Block</class>
+            </dungmv_test>
+        </blocks>
+        <helpers>
+            <dungmv_test>
+                <class>Dungmv_test_Helper</class>
+            </dungmv_test>
+        </helpers>
+        <resources>
+            <dungmv_test_setup>
+                <setup>
+                    <module>Dungmv_test</module>
+                </setup>
+            </dungmv_test_setup>
+        </resources>
+    </global>
+</config>
