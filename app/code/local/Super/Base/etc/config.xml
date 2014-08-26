@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <!--Version của module-->
+        <Super_Base>
+            <version>0.1.0</version>
+        </Super_Base>
+    </modules>
+    <!--Khai báo admin router-->
+    <admin>
+        <routers>
+            <baseadmin>
+                <use>admin</use>
+                <args>
+                    <module>Super_Base</module>
+                    <frontName>baseadmin</frontName>
+                </args>
+            </baseadmin>
+        </routers>
+    </admin>
+    <adminhtml>
+        <!-- Khai báo file layout trong admin-->
+        <layout>
+            <updates>
+                <base>
+                    <file>base.xml</file>
+                </base>
+            </updates>
+        </layout>
+    </adminhtml>
+
+    <global>
+        <!--Khai báo model, resource model-->
+        <models>
+            <base>
+                <class>Super_Base_Model</class>
+                <resourceModel>base_mysql4</resourceModel>
+            </base>
+            <base_mysql4>
+                <class>Super_Base_Model_Mysql4</class>
+                <entities>
+                    <base>
+                        <table>db_base</table>
+                    </base>
+                </entities>
+            </base_mysql4>
+        </models>
+        <!--Khai báo resource để connect và thao tác với database được-->
+        <resources>
+            <base_setup>
+                <setup>
+                    <module>Super_Base</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </base_setup>
+            <base_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </base_write>
+            <base_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </base_read>
+        </resources>
+        <!--Khai báo block để có thể dùng được-->
+        <blocks>
+            <base>
+                <class>Super_Base_Block</class>
+            </base>
+        </blocks>
+        <!--Khai báo helper-->
+        <helpers>
+            <base>
+                <class>Super_Base_Helper</class>
+            </base>
+        </helpers>
+    </global>
+
+</config>

@@ -290,16 +290,29 @@
                 <connection><use>core_write</use></connection>
             </module_demo3_write><module_demo3_read>
                 <connection><use>core_read</use></connection>
-            </module_demo3_read><Demo4_setup>
-                <setup><module>Ducna_Demo4</module></setup>
+            </module_demo3_read><demo4_setup>
+                <setup>
+                    <module>Ducna_Demo4</module>
+                </setup>
                 <connection>
                     <use>core_setup</use>
                 </connection>
-            </Demo4_setup><Demo4_write>
+            </demo4_setup><demo4_write>
                 <connection><use>core_write</use></connection>
-            </Demo4_write><Demo4_read>
+            </demo4_write><demo4_read>
                 <connection><use>core_read</use></connection>
-            </Demo4_read><moneybookers_setup>
+            </demo4_read><demo5_setup>
+                <setup>
+                    <module>Ducna_Demo5</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </demo5_setup><demo5_write>
+                <connection><use>core_write</use></connection>
+            </demo5_write><demo5_read>
+                <connection><use>core_read</use></connection>
+            </demo5_read><moneybookers_setup>
                 <setup>
                     <module>Phoenix_Moneybookers</module>
                 </setup>
@@ -1779,20 +1792,29 @@
                         <table>demo3</table>
                     </module_demo3>
                 </entities>
-            </module_demo3_mysql4><Demo4>
+            </module_demo3_mysql4><demo4> <!-- chu y ten nay, se goi o model -->
                 <class>Ducna_Demo4_Model</class>
                 <resourceModel>demo4_mysql4</resourceModel>
-            </Demo4><Demo4_Mysql4>
+            </demo4><demo4_mysql4>
                 <class>Ducna_Demo4_Model_Mysql4</class>
                 <entities>
+                    <!--chu y entities o day se goi trong MyModel, chu y co phan biet hoa thuong-->
+                   <!-- $this->_init('demo4/MyModel');-->
                     <MyModel>
-                        <table>db_demo4</table>
+                        <table>demo4</table>
                     </MyModel>
                 </entities>
-            </Demo4_Mysql4><demo5>
+            </demo4_mysql4><demo5>
                 <class>Ducna_Demo5_Model</class>
                 <resourceModel>demo5_mysql4</resourceModel>
-            </demo5><moneybookers>
+            </demo5><demo5_mysql4>
+                <class>Ducna_Demo5_Model_Mysql4</class>
+                <entities>
+                    <MyModel>
+                        <table>demo5</table>
+                    </MyModel>
+                </entities>
+            </demo5_mysql4><moneybookers>
                 <class>Phoenix_Moneybookers_Model</class>
             </moneybookers><Demo>
                 <class>Quan_Demo_Model</class>
@@ -1893,9 +1915,9 @@
                 <class>Ducna_Demo2_Block</class>
             </demo2><module_demo3>
                 <class>Ducna_Demo3_Block</class>
-            </module_demo3><Demo4>
+            </module_demo3><demo4>
                 <class>Ducna_Demo4_Block</class>
-            </Demo4><moneybookers><class>Phoenix_Moneybookers_Block</class></moneybookers><Demo>
+            </demo4><moneybookers><class>Phoenix_Moneybookers_Block</class></moneybookers><Demo>
                 <class>Quan_Demo_Block</class>
             </Demo></blocks><helpers>
             <core>
@@ -6313,7 +6335,9 @@ T: {{var telephone}}
                 <args>
                     <module>Mage_Catalog</module>
                     <frontName>catalog</frontName>
-                </args>
+                <modules>
+                        <ducna_demo5 before="Mage_Catalog">Ducna_Demo5</ducna_demo5>
+                    </modules></args>
             </catalog><catalogsearch>
                 <use>standard</use>
                 <args>
@@ -6488,13 +6512,13 @@ T: {{var telephone}}
                     <module>Ducna_Demo3</module>
                     <frontName>demo3</frontName>
                 </args>
-            </module_demo3><Ducna_Demo4>
+            </module_demo3><ducna_demo4>
                 <use>standard</use>
                 <args>
                     <module>Ducna_Demo4</module>
                     <frontName>demo4</frontName>
                 </args>
-            </Ducna_Demo4><demo5>
+            </ducna_demo4><demo5>
                 <use>standard</use>
                 <args>
                     <module>Ducna_Demo5</module>
@@ -6789,9 +6813,9 @@ T: {{var telephone}}
                     <file>demo2.xml</file>
                 </ducna_demo2><module_demo3>
                     <file>demo3.xml</file>
-                </module_demo3><Demo4>
+                </module_demo3><demo4>
                     <file>demo4.xml</file>
-                </Demo4><xinchao>
+                </demo4><xinchao>
                     <file>mymodule.xml</file>
                 </xinchao><moneybookers>
                     <file>moneybookers.xml</file>

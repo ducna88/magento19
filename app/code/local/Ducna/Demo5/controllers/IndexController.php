@@ -11,7 +11,10 @@ class Ducna_Demo5_IndexController extends Mage_Core_Controller_Front_Action {
         $data = $demo5->getData();
         var_dump($data);*/
 
-        $this->loadLayout();
-        $this->renderLayout();
+        $x = ((0.1+0.7)*10);
+
+        echo $x. ' '.intval($x). ' -'.(int)($x);
+        /*$this->loadLayout();
+        $this->renderLayout();*/
     }
 }
