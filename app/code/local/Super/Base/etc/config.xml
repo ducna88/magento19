@@ -3,7 +3,7 @@
     <modules>
         <!--Version của module-->
         <Super_Base>
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </Super_Base>
     </modules>
     <!--Khai báo admin router-->
