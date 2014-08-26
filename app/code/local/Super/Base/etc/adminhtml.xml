@@ -36,11 +36,11 @@
                         <title>Base 23</title>
                         <sort_order>1</sort_order>
                         <children>
-                            <staff module="base" translate="title">
+                            <base module="base" translate="title">
                                 <title>Manage Base 23</title>
                                 <sort_order>0</sort_order>
                                 <action>base/adminhtml_base</action>
-                            </staff>
+                            </base>
                         </children>
                     </base>
                 </children>

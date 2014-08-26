@@ -1,5 +1,5 @@
 <?php
-class Super_Base_BaseController extends Mage_Core_Controller_Front_Action {
+class Super_Base_Adminhtml_BaseController extends Mage_Adminhtml_Controller_Action {
     public function indexAction() {
         $this->loadLayout()
             ->renderLayout();

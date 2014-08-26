@@ -23,18 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/etc/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="26" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.6032028" vertical-offset="358" max-vertical-offset="1360">
-              <folding>
-                <element signature="tag#blocks#0;tag#global#0;tag#config#0" expanded="false" />
-                <element signature="tag#helpers#0;tag#global#0;tag#config#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Data.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/Helper/Data.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,21 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql4-install-0.1.0.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/sql/base_setup/mysql4-install-0.1.0.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="561">
-              <folding>
-                <marker date="1409042729682" expanded="true" signature="164:213" placeholder="DROP TABLE I..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/Model/Mysql4/Base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="41" selection-start="159" selection-end="159" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Company/Web/controllers/Adminhtml/WebController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="31" selection-start="206" selection-end="206" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="3145">
               <folding />
             </state>
           </provider>
@@ -85,7 +71,7 @@
       <file leaf-file-name="Base.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/Block/Adminhtml/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="36" selection-start="355" selection-end="355" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
+            <state line="9" column="1" selection-start="363" selection-end="363" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -94,7 +80,7 @@
       <file leaf-file-name="Grid.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/Block/Adminhtml/Base/Grid.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="41" selection-start="2040" selection-end="2040" vertical-scroll-proportion="-45.115383" vertical-offset="0" max-vertical-offset="1462">
+            <state line="9" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -103,26 +89,93 @@
       <file leaf-file-name="base.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/base.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="9" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+            <state line="6" column="18" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminhtml.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="adminhtml.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/etc/adminhtml.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="59" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+            <state line="15" column="9" selection-start="487" selection-end="487" vertical-scroll-proportion="0.45373666" vertical-offset="0" max-vertical-offset="935">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Basetut/Salestaff/Block/Adminhtml/Staff.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="3" selection-start="140" selection-end="140" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="289">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Company/Web/controllers/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="30" selection-start="176" selection-end="176" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BaseController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/controllers/BaseController.php">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/controllers/Adminhtml/BaseController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="29" selection-start="175" selection-end="175" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="204">
+            <state line="6" column="1" selection-start="192" selection-end="192" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaffController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Basetut/Salestaff/controllers/Adminhtml/StaffController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="24" selection-start="30" selection-end="39" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="289">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/etc/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="38" selection-start="1139" selection-end="1146" vertical-scroll-proportion="-15.692307" vertical-offset="306" max-vertical-offset="1496">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Basetut/Salestaff/etc/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="46" selection-start="1224" selection-end="1239" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1479">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql4-install-0.1.0.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Basetut/Salestaff/sql/salestaff_setup/mysql4-install-0.1.0.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="54" selection-start="203" selection-end="218" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="561">
+              <folding>
+                <marker date="1396533054000" expanded="true" signature="164:221" placeholder="DROP TABLE I..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql4-install-0.1.0.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/sql/base_setup/mysql4-install-0.1.0.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="3" selection-start="112" selection-end="112" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="561">
+              <folding>
+                <marker date="1409042729682" expanded="true" signature="164:213" placeholder="DROP TABLE I..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/demo4/demo4_edit.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/demo4/demo4_add.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/default/layout/demo4.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/default/template/demo4/demo4_load.phtml" />
@@ -181,13 +233,14 @@
         <option value="$PROJECT_DIR$/app/code/local/Super/Base/Model/Mysql4/Base/Collection.php" />
         <option value="$PROJECT_DIR$/app/code/local/Super/Base/Block/Adminhtml/Base.php" />
         <option value="$PROJECT_DIR$/app/code/local/Super/Base/Block/Adminhtml/Base/Grid.php" />
-        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/base.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Super/Base/controllers/BaseController.php" />
         <option value="$PROJECT_DIR$/app/code/local/Super/Base/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Super/Base/Helper/Data.php" />
         <option value="$PROJECT_DIR$/app/code/local/Super/Base/sql/base_setup/mysql4-install-0.1.0.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Super/Base/etc/adminhtml.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Super/Base/Model/Mysql4/Base.php" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/base.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Super/Base/controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Super/Base/etc/adminhtml.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Super/Base/controllers/Adminhtml/BaseController.php" />
       </list>
     </option>
   </component>
@@ -511,6 +564,14 @@
               <option name="myItemId" value="Base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base_setup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -613,6 +674,36 @@
               <option name="myItemId" value="Base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Super" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="etc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -651,6 +742,32 @@
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -674,15 +791,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Super" />
+              <option name="myItemId" value="Company" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento19" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Block" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -712,23 +893,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Super" />
+              <option name="myItemId" value="Basetut" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
+              <option name="myItemId" value="Salestaff" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Block" />
+              <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Adminhtml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
+              <option name="myItemId" value="salestaff_setup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -751,6 +928,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Basetut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Salestaff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Basetut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Salestaff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Basetut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Salestaff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -799,11 +1056,11 @@
       <recent name="D:\project\magento19\app\code\local\Ducna\Demo1\controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\magento19\app\code\local\Super\Base\controllers\Adminhtml" />
       <recent name="D:\project\magento19\app\code\local\Ducna\Demo3\etc" />
       <recent name="D:\project\magento19\app\etc\modules" />
       <recent name="D:\project\magento19\app\code\local\Ducna\Demo1\Block" />
       <recent name="D:\project\magento19\app\design\frontend\default" />
-      <recent name="D:\project\magento19\app\design\frontend\default\default" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Web Application.Magento19">
@@ -870,7 +1127,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27416918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23489426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -899,7 +1156,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27492446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27416918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -931,45 +1188,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="42" />
+      <option name="time" value="43" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="144" selection-end="144" vertical-scroll-proportion="0.11564626" vertical-offset="0" max-vertical-offset="588">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Company/Web/Block/Web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.4738676" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="21" selection-start="4208" selection-end="4208" vertical-scroll-proportion="0.13479052" vertical-offset="2884" max-vertical-offset="24769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Varien/Object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="23" selection-start="3910" selection-end="3910" vertical-scroll-proportion="0.1730419" vertical-offset="2115" max-vertical-offset="15334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="344" column="0" selection-start="9508" selection-end="9508" vertical-scroll-proportion="0.18214937" vertical-offset="5357" max-vertical-offset="18326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Grid/Container.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="20" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.07285974" vertical-offset="266" max-vertical-offset="1547">
@@ -1075,13 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Company/Web/controllers/Adminhtml/WebController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="32" selection-start="4226" selection-end="4235" vertical-scroll-proportion="-13.076923" vertical-offset="1836" max-vertical-offset="3145">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Company/Web/Block/Adminhtml/Web/Edit/Form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="107" selection-start="336" selection-end="346" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="408">
@@ -1092,20 +1307,6 @@
     <entry file="file://$PROJECT_DIR$/app/code/local/Company/Web/Block/Adminhtml/Web/Edit/Tab/Form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="35" selection-start="822" selection-end="830" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="1241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Basetut/Salestaff/etc/adminhtml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="48" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Basetut/Salestaff/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="422" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
           <folding />
         </state>
       </provider>
@@ -1238,36 +1439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/sql/base_setup/mysql4-install-0.1.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="561">
-          <folding>
-            <marker date="1409042729682" expanded="true" signature="164:213" placeholder="DROP TABLE I..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="175" selection-end="175" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/base.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="9" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/etc/adminhtml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="59" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/Model/Mysql4/Base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="41" selection-start="159" selection-end="159" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
@@ -1275,27 +1446,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Company/Web/controllers/Adminhtml/WebController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="206" selection-end="206" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="3145">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/salestaff.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="52" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Basetut/Salestaff/Block/Adminhtml/Staff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="140" selection-end="140" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/Block/Adminhtml/Base/Grid.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="41" selection-start="2040" selection-end="2040" vertical-scroll-proportion="-45.115383" vertical-offset="0" max-vertical-offset="1462">
+        <state line="9" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/base.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Basetut/Salestaff/etc/adminhtml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="42" selection-start="385" selection-end="399" vertical-scroll-proportion="0.28911564" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/Block/Adminhtml/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="355" selection-end="355" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
+        <state line="9" column="1" selection-start="363" selection-end="363" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Company/Web/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="176" selection-end="176" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Basetut/Salestaff/controllers/Adminhtml/StaffController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="24" selection-start="30" selection-end="39" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="289">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="26" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.6032028" vertical-offset="358" max-vertical-offset="1360">
+        <state line="42" column="38" selection-start="1139" selection-end="1146" vertical-scroll-proportion="-15.692307" vertical-offset="306" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Basetut/Salestaff/sql/salestaff_setup/mysql4-install-0.1.0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="54" selection-start="203" selection-end="218" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="561">
           <folding>
-            <element signature="tag#blocks#0;tag#global#0;tag#config#0" expanded="false" />
-            <element signature="tag#helpers#0;tag#global#0;tag#config#0" expanded="false" />
+            <marker date="1396533054000" expanded="true" signature="164:221" placeholder="DROP TABLE I..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Basetut/Salestaff/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="46" selection-start="1224" selection-end="1239" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/sql/base_setup/mysql4-install-0.1.0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="112" selection-end="112" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="561">
+          <folding>
+            <marker date="1409042729682" expanded="true" signature="164:213" placeholder="DROP TABLE I..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/controllers/Adminhtml/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="192" selection-end="192" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Super/Base/etc/adminhtml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="487" selection-end="487" vertical-scroll-proportion="0.45373666" vertical-offset="0" max-vertical-offset="935">
+          <folding />
         </state>
       </provider>
     </entry>
